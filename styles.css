@@ -1,0 +1,112 @@
+body {
+    background: url('../image/thumb2-blue-3d-waves-geometric-shapes-blue-background-3d-waves-texture-blue-waves.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    text-align: center;
+    margin: 210;
+    padding: 200;
+    float: centre;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(238, 2, 2, 0.8);
+    line-height: 40px;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header #Maher {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+header nav {
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: rgba( 0, 0, 0, 0.8);
+    line-height: 40px;
+    text-align: center;
+}
+
+header nav ul li a {
+    display: block;
+}
+
+header nav ul li a:hover {
+    background-color: turquoise;
+    opacity: 0.5;
+}
+
+header nav ul li ul li {
+    display: none;
+}
+
+header nav ul li:hover ul li {
+    display: block;
+}
+
+main {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    margin-top: 150px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    color: rgb(238, 40, 5);
+}
+
+p {
+    color: darkgreen;
+    text-align: justifys;
+}
+
+h1 {
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-duration: 5s;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    padding: 6px 10px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border: radius 6px;
+}
+
+input[type="submit"] {
+    background-color: #0E0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@keyframes back {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
